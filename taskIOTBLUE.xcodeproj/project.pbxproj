@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F22EBA23214954830006AD22 /* BookMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22EBA22214954830006AD22 /* BookMarks.swift */; };
 		F232FAEA2147BFF700B6A89D /* droppedPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232FAE92147BFF700B6A89D /* droppedPin.swift */; };
 		F2C01FCE214695020080CEA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C01FCD214695020080CEA1 /* AppDelegate.swift */; };
 		F2C01FD0214695020080CEA1 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C01FCF214695020080CEA1 /* Map.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F22EBA22214954830006AD22 /* BookMarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookMarks.swift; path = ../../BookMarks.swift; sourceTree = "<group>"; };
 		F232FAE92147BFF700B6A89D /* droppedPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = droppedPin.swift; sourceTree = "<group>"; };
 		F2C01FCA214695020080CEA1 /* taskIOTBLUE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskIOTBLUE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C01FCD214695020080CEA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,7 +104,6 @@
 				F2C01FFC2146CFA60080CEA1 /* view */,
 				F2C01FFB2146ACE50080CEA1 /* Contoller */,
 				F2C01FCD214695020080CEA1 /* AppDelegate.swift */,
-				F2C01FD1214695020080CEA1 /* Main.storyboard */,
 				F2C01FD4214695080080CEA1 /* Assets.xcassets */,
 				F2C01FD6214695080080CEA1 /* LaunchScreen.storyboard */,
 				F2C01FD9214695080080CEA1 /* Info.plist */,
@@ -132,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				F2C01FCF214695020080CEA1 /* Map.swift */,
+				F22EBA22214954830006AD22 /* BookMarks.swift */,
 			);
 			path = Contoller;
 			sourceTree = "<group>";
@@ -139,6 +141,7 @@
 		F2C01FFC2146CFA60080CEA1 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				F2C01FD1214695020080CEA1 /* Main.storyboard */,
 				F232FAE92147BFF700B6A89D /* droppedPin.swift */,
 			);
 			path = view;
@@ -278,6 +281,7 @@
 				F232FAEA2147BFF700B6A89D /* droppedPin.swift in Sources */,
 				F2C01FD0214695020080CEA1 /* Map.swift in Sources */,
 				F2C01FCE214695020080CEA1 /* AppDelegate.swift in Sources */,
+				F22EBA23214954830006AD22 /* BookMarks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
