@@ -56,26 +56,7 @@ class BookMarks: UIViewController, UITableViewDelegate,UITableViewDataSource {
         
     }
     
-    
-    
-    
-    
-    // This for animated view but i change it because some problems in virual machine
-    /*
-   // func animateViewUp()
-   // {
-     //    print("iwork")
-   //     hightConstrains.constant = 250
-        
-     //   locationsHight.constant = 667 - 250
-        
-       
-      //  UIView.animate(withDuration: 0.3) {
-       //     self.view.layoutIfNeeded()
-       // }
-   // }*/
-    
-    
+
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -90,7 +71,7 @@ class BookMarks: UIViewController, UITableViewDelegate,UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     
-     //   animateViewUp()
+     
         
         
         let params :[String : String] = ["lat" : locationsContainerlat[indexPath.row], "lon" : locationsContainerlon[indexPath.row],"appid": AppID]
@@ -152,9 +133,7 @@ class BookMarks: UIViewController, UITableViewDelegate,UITableViewDataSource {
         
     }
 
-    
-    
-    
+
     
     func updateUIWeatherData ()
     {
@@ -170,13 +149,9 @@ class BookMarks: UIViewController, UITableViewDelegate,UITableViewDataSource {
     }
     
     
-    
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return locationsContainerlat.count
     }
-    
-    
     
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
@@ -186,10 +161,7 @@ class BookMarks: UIViewController, UITableViewDelegate,UITableViewDataSource {
         }
     }
     
-   
-    
-    
-    
+
     
     @IBAction func exitButton(_ sender: Any) {
         
@@ -203,7 +175,4 @@ class BookMarks: UIViewController, UITableViewDelegate,UITableViewDataSource {
         dismiss(animated: true, completion: nil)
     }
     
-    
-
-
 }
